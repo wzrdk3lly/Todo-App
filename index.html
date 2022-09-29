@@ -37,11 +37,18 @@
         </ul>
     </div>
     <!-- Main section -->
-    <div class="render h-full ml-60">
-        
-        <!-- Render add todo text box
-        <div class="ml-96">
-            <div class=" block p-6 rounded-lg shadow-lg ml-24 mt-2 bg-white max-w-md">
+    <div class=" add-card h-full ml-60">
+        <!-- Render cards under here  -->
+        <div class="list-todos ml-10 mr-6 mt-5">
+            <div class="flex space-x-2 justify-center">
+                <div
+                    class="inline-block h-10 w-full px-6 py-2 border-2 border-gray-800 text-gray-800 font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out">
+                    Test Card</div>
+            </div>
+        </div>
+
+        <div class="render">
+            <!-- <div class=" block p-6 rounded-lg shadow-lg ml-24 mt-2 bg-white max-w-md">
                 <form>
                   <div class="form-group mb-6">
                     <input type="text" class="form-control block
@@ -123,22 +130,27 @@
                     duration-150
                     ease-in-out">Add Todo</button>
                 </form>
-              </div>
-            </div> -->
+              </div> -->
+        </div>
 
 
         <div class="list-todos ml-10 mr-6 mt-5">
             <div class="flex space-x-2 justify-center">
-                <button type="button"
-                    class="btn-add-todo inline-block w-full px-6 py-2 border-2 border-gray-800 text-gray-800 font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out">Add
-                    Todo</button>
+
+                <div type="button"
+                    class="btn-add-todo inline-block px-6 py-2 border-2 border-gray-800 text-gray-800 font-medium text-xs leading-tight uppercase rounded-2xl hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                    </svg>
+                </div>
             </div>
         </div>
 
-        
-        
-            
-      
+
+
+
+
 
 
         <!-- List Projects here 
