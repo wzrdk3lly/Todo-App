@@ -22,6 +22,8 @@ export default class Todo {
   }
 }
 
+export let listOfTodos = [];
+
 // function addTodo(name) {
 //   toDos.push(new Todo(name, description, date));
 // }
